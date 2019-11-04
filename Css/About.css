@@ -1,0 +1,111 @@
+#navBarroSide {
+  height: 621px;
+  width: 235px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  background: rgba(255,216,76,0.7);
+
+}
+#elLogo{
+  display: block;
+}
+ul {
+  color: white;
+
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+li {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+a {
+  font-weight: bold;
+}
+#aboutPinoyDevo {
+  height: 500px;
+  width: 1300px;
+  background-color: #063119;
+  margin-right: 50px;
+  float: right;
+  margin-top: 20px;
+  background: rgba(255,133,76,0.7);
+  transition: 0.5s;
+}
+#aboutPinoyDevo:hover{
+  transform:scale(1.025);
+}
+body {
+  background-color: #15223a;
+  background-image: url("Assets\Images\las flores.png")
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#bouto{
+  left: 30%;
+  font-size: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#devoIs{
+  display: none;
+  curson: pointer;
+}
+#pinoyDevoMemberList{
+  width:1300px;
+  height: 100px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color: #192734;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+}
+#pinoyDevoMemberList h1{
+  margin:auto;
+     vertical-align:middle;
+     margin-left: 10px;
+     font-size: 80px;
+}
+#elLogo{
+  height: 23px;
+  width: 28px;
+}
+
+#contentDiv{
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  width: 800px;
+  margin-top: 20px;
+}
+#contentDivLinks{
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  width: 1200px;
+  margin-top: 20px;
+}
+.simplebar-scrollbar{
+  background-color: white;
+}
